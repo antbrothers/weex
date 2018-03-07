@@ -1,0 +1,223 @@
+.pay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+.pay-head-main {
+    display: flex;
+    align-items: center;
+}
+.pay-head {
+    width: 750px;
+    height: 268px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.pay-font-comm {
+    color: black;
+    font-size: 32px;
+    text-align: center;
+}
+.pay-number {
+    color: black;
+    font-size: 88px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+.pay-dec {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.pay-line {
+    width: 232px;
+    height: 1px;
+    background-color: #ececec;
+}
+.pay-dec-font {
+    font-size: 24px;
+    color: #929292;
+    padding-left: 62px;
+    padding-right: 62px;
+    text-align: center;
+}
+.pay-list-main{
+    width: 222px;
+    height: 99px;
+    border-style: solid;
+    border-width: 2;
+    border-color: #eeeeee;
+    border-bottom-left-radius: 62px;
+    border-bottom-right-radius: 62px;
+    border-top-left-radius: 62px;
+    border-top-right-radius: 62px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: white;
+}
+.pay-up {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.pay-down-price {
+    text-align: center;
+    font-size: 22px;
+    color: #a9a9a9;
+}
+.pay-up-font {
+    font-size: 32px;
+    color: black;
+}
+.pay-list {
+    flex-direction: row;
+    flex-flow: wrap;
+    /*justify-content: space-between;*/
+    /*padding-right: 20px;
+    padding-left: 20px;*/
+    flex-wrap: wrap;
+    padding-bottom: 59px;
+    padding-top: 38px;
+    border-bottom-style: solid;
+    border-bottom-width: 1;
+    border-bottom-color: #ececec;
+}
+.payicon {
+    width: 35px;
+    height: 35px;
+    margin-right: 9px;
+}
+.type-list {
+    width: 731px;
+    height: 92px;
+    border-bottom-style: solid;
+    border-bottom-width: 1;
+    border-bottom-color: #ececec;
+    flex-direction: row;
+    padding-right: 21px;
+}
+.type-left {
+    width: 400px;
+    height: 92px;
+    flex-direction: row;
+    align-items: center;
+}
+.type-font {
+    color: black;
+    font-size: 32px;
+}
+.pay-type-container {
+    padding-left: 21px;
+    align-items: center;
+
+}
+.pay-img {
+    width: 47px;
+    height: 47px;
+    margin-right: 18px;
+}
+.check-img {
+    height: 40px;
+    width: 40px;
+}
+.type-right {
+    flex: 1;
+    align-items: flex-end;
+    justify-content: center;
+}
+.btn {
+    font-size: 34px;
+    background-color: #52b8f8;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 693px;
+    height: 79px;
+    text-align: center;
+    line-height: 79px;
+    color: white;
+}
+.btn-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 66px;
+}
+.agree-main {
+    width: 750px;
+    height: 111px;
+    padding-left: 21px;
+    flex-direction: row;
+    align-items: center;
+}
+.check-agree {
+    width: 31px;
+    height: 31px;
+    margin-right: 12px;
+}
+.agree-dec {
+    font-size: 24px;
+    color: #545454;
+}
+.agree-xy {
+    color: #52b8f8;
+}
+.get-dec {
+    background-color: #ff775d;
+    padding-right: 19px;
+    padding-left: 19px;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    color: white;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    font-size: 24px;
+}
+.work-font {
+    font-size: 26px;
+}
+.apple-icon {
+    height: 44px;
+    width: 37px;
+}
+.active{
+    background-color: #52b8f8;
+    color: white;
+    border-color: white;
+}
+.seleactive {
+    color: white;
+}
+.pay-list-contain {
+    width: 243px;
+}
+.give-icon {
+    width: 32px;
+    height: 32px;
+}
+.pay-list-give{
+    width: 243px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.give-shell {
+    font-size: 23px;
+    color: black;
+    margin-left: 10px;
+}
+.pay_type_0{
+    display: block;
+}

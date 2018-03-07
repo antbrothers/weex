@@ -1,0 +1,84 @@
+.subject-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #f6f6f6;
+    display: flex;
+    align-items: center;
+}
+.subject-scroller {
+    width: 750px;
+    height: 1206px;
+}
+.subject-list {
+    flex-direction: row;
+    justify-content: center;
+    width: 750px;
+    height: 168px;
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 1;
+    border-bottom-color: #e8e8e8;
+}
+.list-left {
+    width: 191px;
+    height: 168px;
+    align-items: center;
+    justify-content: center;
+}
+.list-middle {
+  flex: 1;
+    justify-content: center;
+}
+.list-right {
+    width: 62px;
+    height: 168px;
+    align-items: center;
+    justify-content: center;
+}
+.tx-img {
+    width: 142px;
+    height: 142px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.right-icon {
+    width: 22px;
+    height: 38px;
+}
+.fireicon {
+    width: 22px;
+    height: 28px;
+    margin-right: 12px;
+}
+.middle-bottom {
+    flex-direction: row;
+    align-items: center;
+}
+.top-font {
+    font-size: 32px;
+    color: black;
+    font-weight: bold;
+}
+.desc-font {
+    width: 494px;
+    font-size: 30px;
+    color: #959595;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline;
+    lines: 1;
+}
+.bottom-font {
+    font-size: 24px;
+    color: #959595;
+}
+.middle-desc {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,39 @@
+{
+  "name": "account",
+  "description": "account-project",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "keywords": [
+    "weex",
+    "vue"
+  ],
+  "scripts": {
+    "build:weex": "webpack --config build/webpack.extend.config.js",
+    "build:web": "webpack --config build/webpack.web.config.js",
+    "build:native": "webpack --config build/webpack.native.config.js",
+    "build": "npm run build:web&npm run build:native &npm run build:weex",
+    "serve": "serve -p 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "vue": "^2.1.10",
+    "vue-router": "^2.3.0",
+    "webpack-dev-server": "1.14.0",
+    "weex-vue-global-event": "^0.1.2",
+    "weex-vue-render": "^0.2.0",
+    "weex-vue-router": "^0.0.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.20.0",
+    "babel-loader": "^6.2.9",
+    "babel-plugin-transform-object-rest-spread": "^6.20.2",
+    "babel-preset-es2015": "^6.18.0",
+    "css-loader": "^0.26.1",
+    "serve": "^1.4.0",
+    "url-loader": "^0.5.9",
+    "vue-loader": "^10.3.0",
+    "webpack": "^1.14.0",
+    "weex-loader": "^0.4.4"
+  }
+}
