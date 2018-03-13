@@ -17,7 +17,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "ftp": "^0.3.10",
+    "gulp": "^3.9.1",
+    "gulp-sftp": "^0.1.5",
     "vue": "^2.1.10",
     "vue-router": "^2.3.0",
     "webpack-dev-server": "1.14.0",
