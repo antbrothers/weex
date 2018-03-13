@@ -8,5 +8,6 @@ gulp.task('default', function() {
         port: 22,
         user: 'root',
         pass: 'oeusTGa]1',
+        remotePath: '/root/'
     }))
 })
