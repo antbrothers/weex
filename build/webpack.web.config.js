@@ -15,7 +15,7 @@ module.exports = {
   output: {
     path: 'dist/account',
     filename: '[name].js',
-    publicPath: 'dist/account/',
+    publicPath: '',
   },
   node: {
     global: true
