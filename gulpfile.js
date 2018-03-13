@@ -4,10 +4,10 @@ var sftp = require('gulp-sftp');
 gulp.task('default', function() {
     return gulp.src('./dist/**')
     .pipe(sftp({
-        host: '114.67.143.209',
+        host: '',
         port: 22,
-        user: 'root',
-        pass: 'oeusTGa]1',
+        user: '',
+        pass: '',
         remotePath: '/root/'
     }))
 })
